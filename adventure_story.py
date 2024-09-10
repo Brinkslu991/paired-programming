@@ -1,5 +1,5 @@
-# Student name
-# Current date
+# Lucas Brinks
+# 9/10/24
 # f-String Adventure Story
 
 '''
@@ -21,3 +21,8 @@ Directions:
 
 6. Execute (run) your script in Visual Studio Code and correct any errors.
 '''
+hero_name = input('Enter your name')
+setting = input('where are we')
+objective = input('what do you want')
+story = f'{hero_name} is the hero of our story, we find our hero in a {setting} making his way to the tower that holds {objective}.'
+print(story)
